@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9857B6F045AACD90759478EB /* libPods-SHWKWebViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E70A2732F88388D3709AA093 /* libPods-SHWKWebViewDemo.a */; };
+		F13BF7D11D815582001F35C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7D01D815582001F35C4 /* main.m */; };
+		F13BF7D41D815582001F35C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7D31D815582001F35C4 /* AppDelegate.m */; };
+		F13BF7D71D815582001F35C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7D61D815582001F35C4 /* ViewController.m */; };
+		F13BF7DA1D815582001F35C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BF7D81D815582001F35C4 /* Main.storyboard */; };
+		F13BF7DC1D815582001F35C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13BF7DB1D815582001F35C4 /* Assets.xcassets */; };
+		F13BF7DF1D815582001F35C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BF7DD1D815582001F35C4 /* LaunchScreen.storyboard */; };
+		F13BF7F01D8155DE001F35C4 /* SHScriptMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7E81D8155DE001F35C4 /* SHScriptMessage.m */; };
+		F13BF7F11D8155DE001F35C4 /* SHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7EA1D8155DE001F35C4 /* SHWKWebView.m */; };
+		F13BF7F21D8155DE001F35C4 /* SHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7EC1D8155DE001F35C4 /* SHWKWebViewController.m */; };
+		F13BF7F31D8155DE001F35C4 /* UINavigationController+SGProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7EF1D8155DE001F35C4 /* UINavigationController+SGProgress.m */; };
+		F13BF7F91D81568E001F35C4 /* WebController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13BF7F81D81568E001F35C4 /* WebController.m */; };
+		F17302351D824FD3000E18CC /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = F17302341D824FD3000E18CC /* main.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E6EAE57CB771AE2BA87BA4F /* Pods-SHWKWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWKWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWKWebViewDemo/Pods-SHWKWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		75B3668973C21A4B4E21BE99 /* Pods-SHWKWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWKWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWKWebViewDemo/Pods-SHWKWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E70A2732F88388D3709AA093 /* libPods-SHWKWebViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHWKWebViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF7CC1D815582001F35C4 /* SHWKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF7D01D815582001F35C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13BF7D21D815582001F35C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13BF7D31D815582001F35C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13BF7D51D815582001F35C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13BF7D61D815582001F35C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13BF7D91D815582001F35C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13BF7DB1D815582001F35C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13BF7DE1D815582001F35C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13BF7E01D815582001F35C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13BF7E71D8155DE001F35C4 /* SHScriptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScriptMessage.h; sourceTree = "<group>"; };
+		F13BF7E81D8155DE001F35C4 /* SHScriptMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScriptMessage.m; sourceTree = "<group>"; };
+		F13BF7E91D8155DE001F35C4 /* SHWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWKWebView.h; sourceTree = "<group>"; };
+		F13BF7EA1D8155DE001F35C4 /* SHWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWKWebView.m; sourceTree = "<group>"; };
+		F13BF7EB1D8155DE001F35C4 /* SHWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWKWebViewController.h; sourceTree = "<group>"; };
+		F13BF7EC1D8155DE001F35C4 /* SHWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWKWebViewController.m; sourceTree = "<group>"; };
+		F13BF7EE1D8155DE001F35C4 /* UINavigationController+SGProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SGProgress.h"; sourceTree = "<group>"; };
+		F13BF7EF1D8155DE001F35C4 /* UINavigationController+SGProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SGProgress.m"; sourceTree = "<group>"; };
+		F13BF7F71D81568E001F35C4 /* WebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebController.h; sourceTree = "<group>"; };
+		F13BF7F81D81568E001F35C4 /* WebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebController.m; sourceTree = "<group>"; };
+		F17302341D824FD3000E18CC /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13BF7C91D815582001F35C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9857B6F045AACD90759478EB /* libPods-SHWKWebViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263B2001F016B3C749616FBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B3668973C21A4B4E21BE99 /* Pods-SHWKWebViewDemo.debug.xcconfig */,
+				6E6EAE57CB771AE2BA87BA4F /* Pods-SHWKWebViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		409536A39C75F7BC6709EF89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70A2732F88388D3709AA093 /* libPods-SHWKWebViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13BF7C31D815582001F35C4 = {
+			isa = PBXGroup;
+			children = (
+				F13BF7E61D8155DE001F35C4 /* SHWKWebView */,
+				F13BF7CE1D815582001F35C4 /* SHWKWebViewDemo */,
+				F13BF7CD1D815582001F35C4 /* Products */,
+				263B2001F016B3C749616FBE /* Pods */,
+				409536A39C75F7BC6709EF89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13BF7CD1D815582001F35C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13BF7CC1D815582001F35C4 /* SHWKWebViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13BF7CE1D815582001F35C4 /* SHWKWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F13BF7D21D815582001F35C4 /* AppDelegate.h */,
+				F13BF7D31D815582001F35C4 /* AppDelegate.m */,
+				F13BF7D51D815582001F35C4 /* ViewController.h */,
+				F13BF7D61D815582001F35C4 /* ViewController.m */,
+				F13BF7F71D81568E001F35C4 /* WebController.h */,
+				F13BF7F81D81568E001F35C4 /* WebController.m */,
+				F13BF7D81D815582001F35C4 /* Main.storyboard */,
+				F13BF7DB1D815582001F35C4 /* Assets.xcassets */,
+				F13BF7DD1D815582001F35C4 /* LaunchScreen.storyboard */,
+				F13BF7E01D815582001F35C4 /* Info.plist */,
+				F17302341D824FD3000E18CC /* main.html */,
+				F13BF7CF1D815582001F35C4 /* Supporting Files */,
+			);
+			path = SHWKWebViewDemo;
+			sourceTree = "<group>";
+		};
+		F13BF7CF1D815582001F35C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13BF7D01D815582001F35C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F13BF7E61D8155DE001F35C4 /* SHWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F13BF7E71D8155DE001F35C4 /* SHScriptMessage.h */,
+				F13BF7E81D8155DE001F35C4 /* SHScriptMessage.m */,
+				F13BF7E91D8155DE001F35C4 /* SHWKWebView.h */,
+				F13BF7EA1D8155DE001F35C4 /* SHWKWebView.m */,
+				F13BF7EB1D8155DE001F35C4 /* SHWKWebViewController.h */,
+				F13BF7EC1D8155DE001F35C4 /* SHWKWebViewController.m */,
+				F13BF7ED1D8155DE001F35C4 /* UINavigationController+SGProgress */,
+			);
+			path = SHWKWebView;
+			sourceTree = "<group>";
+		};
+		F13BF7ED1D8155DE001F35C4 /* UINavigationController+SGProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F13BF7EE1D8155DE001F35C4 /* UINavigationController+SGProgress.h */,
+				F13BF7EF1D8155DE001F35C4 /* UINavigationController+SGProgress.m */,
+			);
+			path = "UINavigationController+SGProgress";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13BF7CB1D815582001F35C4 /* SHWKWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13BF7E31D815582001F35C4 /* Build configuration list for PBXNativeTarget "SHWKWebViewDemo" */;
+			buildPhases = (
+				1C3491A81B3967C9268F1BA4 /* [CP] Check Pods Manifest.lock */,
+				F13BF7C81D815582001F35C4 /* Sources */,
+				F13BF7C91D815582001F35C4 /* Frameworks */,
+				F13BF7CA1D815582001F35C4 /* Resources */,
+				FCB54F504AF47A91863F5123 /* [CP] Embed Pods Frameworks */,
+				1366DC38E207BE30042C59AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHWKWebViewDemo;
+			productName = SHWKWebViewDemo;
+			productReference = F13BF7CC1D815582001F35C4 /* SHWKWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13BF7C41D815582001F35C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "宋海梁";
+				TargetAttributes = {
+					F13BF7CB1D815582001F35C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F13BF7C71D815582001F35C4 /* Build configuration list for PBXProject "SHWKWebViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13BF7C31D815582001F35C4;
+			productRefGroup = F13BF7CD1D815582001F35C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13BF7CB1D815582001F35C4 /* SHWKWebViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13BF7CA1D815582001F35C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13BF7DF1D815582001F35C4 /* LaunchScreen.storyboard in Resources */,
+				F13BF7DC1D815582001F35C4 /* Assets.xcassets in Resources */,
+				F13BF7DA1D815582001F35C4 /* Main.storyboard in Resources */,
+				F17302351D824FD3000E18CC /* main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1366DC38E207BE30042C59AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHWKWebViewDemo/Pods-SHWKWebViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C3491A81B3967C9268F1BA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB54F504AF47A91863F5123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHWKWebViewDemo/Pods-SHWKWebViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13BF7C81D815582001F35C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13BF7F21D8155DE001F35C4 /* SHWKWebViewController.m in Sources */,
+				F13BF7D71D815582001F35C4 /* ViewController.m in Sources */,
+				F13BF7F01D8155DE001F35C4 /* SHScriptMessage.m in Sources */,
+				F13BF7F11D8155DE001F35C4 /* SHWKWebView.m in Sources */,
+				F13BF7F91D81568E001F35C4 /* WebController.m in Sources */,
+				F13BF7D41D815582001F35C4 /* AppDelegate.m in Sources */,
+				F13BF7F31D8155DE001F35C4 /* UINavigationController+SGProgress.m in Sources */,
+				F13BF7D11D815582001F35C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13BF7D81D815582001F35C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13BF7D91D815582001F35C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13BF7DD1D815582001F35C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13BF7DE1D815582001F35C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13BF7E11D815582001F35C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13BF7E21D815582001F35C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13BF7E41D815582001F35C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B3668973C21A4B4E21BE99 /* Pods-SHWKWebViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHWKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicaas.SHWKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13BF7E51D815582001F35C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6EAE57CB771AE2BA87BA4F /* Pods-SHWKWebViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHWKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicaas.SHWKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13BF7C71D815582001F35C4 /* Build configuration list for PBXProject "SHWKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13BF7E11D815582001F35C4 /* Debug */,
+				F13BF7E21D815582001F35C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13BF7E31D815582001F35C4 /* Build configuration list for PBXNativeTarget "SHWKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13BF7E41D815582001F35C4 /* Debug */,
+				F13BF7E51D815582001F35C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13BF7C41D815582001F35C4 /* Project object */;
+}
