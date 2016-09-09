@@ -18,7 +18,6 @@
 
 @interface SHWKWebView () {
     
-    NSString *_identityId;
 }
 
 @property (nonatomic, strong) NSURL *baseUrl;
@@ -52,11 +51,7 @@
 
 - (void)loadRequestWithRelativeUrl:(NSString *)relativeUrl params:(NSDictionary *)params {
     
-    if (!_identityId) {
-        _identityId = [NSString stringWithFormat:@"%@",@(arc4random())];
-    }
-    
-    NSURL *url = [self generateURL:relativeUrl params:params isShare:NO];
+    NSURL *url = [self generateURL:relativeUrl params:params];
     
     [self loadRequest:[NSURLRequest requestWithURL:url]];
 }
@@ -67,7 +62,7 @@
  *  @param htmlName html页面文件名称
  *  @param params   参数
  */
-- (void)loadLocalHTMLWithFileName:(nonnull NSString *)htmlName params:(nullable NSDictionary *)params {
+- (void)loadLocalHTMLWithFileName:(nonnull NSString *)htmlName {
 
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
@@ -80,7 +75,7 @@
     [self loadHTMLString:htmlCont baseURL:baseURL];
 }
 
-- (NSURL *)generateURL:(NSString*)baseURL params:(NSDictionary*)params isShare:(BOOL)isShare {
+- (NSURL *)generateURL:(NSString*)baseURL params:(NSDictionary*)params {
     
     self.webViewRequestUrl = baseURL;
     self.webViewRequestParams = params;

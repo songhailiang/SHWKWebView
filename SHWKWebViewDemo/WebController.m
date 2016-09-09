@@ -16,7 +16,7 @@
     
 //    [self.webView loadRequestWithRelativeUrl:@"wap/money/list"];
     
-    [self.webView loadLocalHTMLWithFileName:@"main" params:nil];
+    [self.webView loadLocalHTMLWithFileName:@"main"];
     
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"调用JS" style:UIBarButtonItemStylePlain target:self action:@selector(callJS:)];
     self.navigationItem.rightBarButtonItem = rightItem;

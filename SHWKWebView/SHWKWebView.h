@@ -38,9 +38,8 @@
  *  加载本地HTML页面
  *
  *  @param htmlName html页面文件名称
- *  @param params   参数
  */
-- (void)loadLocalHTMLWithFileName:(nonnull NSString *)htmlName params:(nullable NSDictionary *)params;
+- (void)loadLocalHTMLWithFileName:(nonnull NSString *)htmlName;
 
 #pragma mark - View Method
 
